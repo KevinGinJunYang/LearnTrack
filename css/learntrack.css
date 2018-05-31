@@ -1,0 +1,373 @@
+.nav-bar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  overflow: visible;
+  background-color: rgba(0, 0, 0, .27);
+}
+
+.nav-link {
+  padding-left: 20px;
+  font-family: Raleway, sans-serif;
+  color: #e4d6d6;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.nav-link.w--current {
+  margin-right: 165px;
+  margin-left: 65px;
+  padding-left: 35px;
+}
+
+.hero-section {
+  height: 600px;
+  padding-top: 120px;
+  padding-bottom: 366px;
+  border: 2px solid #0e0d0d;
+  background-image: url('../images/learntrack.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 1px rgba(117, 91, 91, .85);
+}
+
+.hero-heading {
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 78px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 8px 8px 9px #000;
+}
+
+.hero-subtitle {
+  display: block;
+  width: 70%;
+  margin-top: 38px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 3px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 0 hsla(0, 0%, 100%, .25);
+}
+
+.button-wrapper {
+  position: static;
+  display: block;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  margin-right: 5px;
+  margin-left: 8px;
+  padding: 12px 30px;
+  border-radius: 40px;
+  background-color: #0c0b0b;
+  font-family: Raleway, sans-serif;
+  line-height: 21px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #0a0a0a;
+}
+
+.button.button-2 {
+  margin-right: 8px;
+  border: 2px solid #f5f5f5;
+  border-radius: 40px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.button.button-2:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f5f8fa;
+}
+
+.section._2 {
+  margin-top: 0px;
+  background-color: #545658;
+}
+
+.section._2._3 {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.sub-content {
+  margin-top: 33px;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.sub-content._2 {
+  color: #fff;
+}
+
+.heading {
+  color: #fff;
+  text-shadow: 0 6px 0 #000;
+}
+
+.text-block {
+  margin-top: 11px;
+}
+
+.heading-2 {
+  text-shadow: 0 1px 0 #5d5555;
+}
+
+.image {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.heading-3 {
+  width: 70%;
+  font-size: 17px;
+}
+
+.contact-button {
+  width: 150px;
+  margin-top: 23px;
+  border-radius: 40px;
+  background-color: #110e0e;
+  font-family: Raleway, sans-serif;
+}
+
+.contact-button:hover {
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #020202;
+}
+
+.copyright {
+  margin-top: 3px;
+}
+
+.nz {
+  margin-top: 3px;
+  margin-left: 33px;
+  float: right;
+  color: #1b1a1a;
+}
+
+.column {
+  color: #1b1a1a;
+}
+
+.nav-menu {
+  margin-left: 4px;
+  padding-left: 0px;
+}
+
+html.w-mod-js *[data-ix="left-in"] {
+  display: block;
+  opacity: 0.43;
+  -webkit-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate(-100px, 0px);
+}
+
+html.w-mod-js *[data-ix="left-in-2"] {
+  display: block;
+  opacity: 0.43;
+  -webkit-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  transform: translate(100px, 0px);
+}
+
+@media (max-width: 991px) {
+  .nav-menu {
+    background-color: rgba(66, 62, 62, .79);
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-bar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hero-section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hero-heading {
+    font-size: 64px;
+  }
+  .hero-subtitle {
+    font-size: 18px;
+  }
+  .section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .column-text {
+    display: block;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .sub-content {
+    text-align: center;
+  }
+  .sub-heading {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .heading {
+    text-align: center;
+  }
+  .heading-2 {
+    margin-top: 35px;
+    margin-bottom: -21px;
+  }
+  .heading-contact {
+    margin-top: -16px;
+    text-align: center;
+  }
+  .heading-3 {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 52px;
+    margin-left: auto;
+    text-align: center;
+  }
+  .contact-button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .nz {
+    margin-top: -22px;
+  }
+  .image-2 {
+    display: block;
+    margin-top: 72px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .field-label {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .field-label-2 {
+    text-align: center;
+  }
+  .field-label-3 {
+    text-align: center;
+  }
+  .text-field {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .text-field-2 {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .text-field-3 {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .unordered-list {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 43px;
+    margin-left: auto;
+    text-align: left;
+  }
+  .list-item {
+    display: inline;
+  }
+  .list-item-2 {
+    display: inline;
+    margin-left: 92px;
+  }
+  .container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 479px) {
+  .hero-heading {
+    margin-top: 20px;
+    padding-top: 0px;
+    line-height: 50px;
+    letter-spacing: 5px;
+  }
+  .hero-subtitle {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .button-wrapper {
+    margin-top: 70px;
+  }
+  .button {
+    margin-top: -75px;
+    margin-bottom: 29px;
+  }
+  .copyright {
+    width: 70%;
+  }
+  .nz {
+    margin-top: -19px;
+  }
+  .unordered-list {
+    display: block;
+  }
+  .list-item {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+  }
+  .list-item-2 {
+    display: block;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+  }
+}
+
